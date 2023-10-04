@@ -216,7 +216,7 @@ Les fichier qui ont été générés par parcel lors du build de l’application
 
 > Explain the different files generated in dist folder. What are these files? Why they are named the way they are?
 
-tous les fichiers de code source sont concaténés dans un seul fichier, et tous les fichiers de style sont concaténés dans un autre fichier. Les fichiers sont nommés en fonction de leur nom original suivi d'un hash unique et d'une extension de fichier.
+tous les fichiers de code source sont concaténés dans un seul fichier, et tous les fichiers de style sont concaténés dans un autre fichier. Les fichiers sont nommés en fonction de leur nom original suivi d'un hash unique et d'une extension de fichier. Ils sonts nommées comme cela pour éviter les problèmes de mise en cache.
 
 ## Builded app
 
