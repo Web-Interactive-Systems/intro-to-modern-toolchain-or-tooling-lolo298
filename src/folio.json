@@ -1,3 +1,28 @@
 {
-    "hello_cat": "Meou"
+  "firstName": "Lorenzo",
+  "lastName": "Aoulini",
+  "birthday": "03/11/2003",
+  "interests": ["Developpement", "Informatique", "Jeux video", "Musique"],
+  "skills": [
+    { "name": "JavaScript", "level": 4 },
+    { "name": "NodeJS", "level": 4 },
+    { "name": "Svelte", "level": 2.5 },
+    { "name": "React", "level": 3 }
+  ],
+  "projects": [
+    {
+      "name": "ApiDex",
+      "description": "ApiDex est un site web que j'ai commencé pour apprendre plus sur les fonctions fetch et async. Il est toujours en développement et j'ai l'intention d'ajouter plus de fonctionnalités.",
+      "link": "https://lorenzoa.dev/apidex",
+      "thumbnail": "https://lorenzoa.dev/images/Apidex.webp",
+      "date": "2022-08-02"
+    },
+    {
+      "name": "UnderDice",
+      "description": "Dans ce projet j'ai du créer un jeu en utilisant three.js, le jeu devait être un jeu de dés mais nous étions libre sur les règles. J'ai décidé de refaire une partie du jeu \"UnderTale\" où il faut esquiver des attaques. Pour ce projet j'ai du apprendre à utiliser three.js et je l'ai utilisé avec typescript.",
+      "link": "https://underdice.lorenzoa.dev",
+      "thumbnail": "https://lorenzoa.dev/images/underdice.png",
+      "date": "2023-03-16"
+    }
+  ]
 }

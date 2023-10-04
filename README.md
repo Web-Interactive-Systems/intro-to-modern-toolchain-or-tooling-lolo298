@@ -1,6 +1,6 @@
----
-type: NoteCard
----
+## [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/xnLk9Kav)
+
+## type: NoteCard
 
 # lab - modern toolchain or tooling
 
@@ -119,7 +119,7 @@ Keep parcel running in a terminal. When you make any changes on any file related
 ```js
 // src/app.js
 
-console.log("Hello there! here is my portfolio");
+console.log('Hello there! here is my portfolio')
 ```
 
 ```js
@@ -143,11 +143,11 @@ h1 {
 ```js
 // app.js
 
-const state = {};
+const state = {}
 
-const containerEl = document.getElementById("container");
+const containerEl = document.getElementById('container')
 
-containerEl.textContent = JSON.stringify(state, null, 2);
+containerEl.textContent = JSON.stringify(state, null, 2)
 ```
 
 # Show human-readable relative dates
@@ -157,15 +157,15 @@ Instead, we can show it as “18 years old” or “20 years old”, etc.
 
 ```js
 // app.js
-import { formatDistanceToNow } from "date-fns";
+import { formatDistanceToNow } from 'date-fns'
 
-const state = {};
+const state = {}
 
-const containerEl = document.getElementById("container");
+const containerEl = document.getElementById('container')
 
-state.birthday = `${formatDistanceToNow(new Date(state.birthdate))} old`;
+state.birthday = `${formatDistanceToNow(new Date(state.birthdate))} old`
 
-containerEl.textContent = JSON.stringify(state, null, 2);
+containerEl.textContent = JSON.stringify(state, null, 2)
 ```
 
 ::::cal
@@ -212,8 +212,12 @@ yarn parcel build src/index.html
 
 > Explore the “dist” folder. Explain what is this folder.
 
-…
+Les fichier qui ont été générés par parcel lors du build de l’application.
 
 > Explain the different files generated in dist folder. What are these files? Why they are named the way they are?
 
-…
+tous les fichiers de code source sont concaténés dans un seul fichier, et tous les fichiers de style sont concaténés dans un autre fichier. Les fichiers sont nommés en fonction de leur nom original suivi d'un hash unique et d'une extension de fichier. Ils sonts nommées comme cela pour éviter les problèmes de mise en cache.
+
+## Builded app
+
+app builded with parcel and deployed on [vercel](https://my-portfolio-rgvng5ho0-lolo298.vercel.app)
