@@ -2,5 +2,19 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "source": "src/index.html",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "3.0.3"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0"
+  }
 }
